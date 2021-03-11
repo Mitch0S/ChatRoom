@@ -1,0 +1,16 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+              Chatroom v1.0.1 by Mitch Naake
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+This is a chatroom software that uses two clients, one that
+contains the actual chat, while the other is used to select
+a username and send messages to the chatroom.
+
+requirements:
+    API server:
+        - Flask
+    Clients:
+        - Requests
+        - Time
