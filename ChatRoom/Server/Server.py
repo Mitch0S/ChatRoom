@@ -1,5 +1,6 @@
 import flask
 from flask import request
+from flask import jsonify
 
 app = flask.Flask(__name__)
 
@@ -8,9 +9,9 @@ def get_config():
     chat = open("chat.txt", "r+").readlines()
     chats = ""
     for line in chat:
-        chats = chats+"-"+(line).strip()
+        chats = chats+"=+-=-+-"+(line).strip()
     #print(chats)
-    return chats
+    return jsonify(chats)
 
 @app.route('/post/', methods=['POST'])
 def post_config():
