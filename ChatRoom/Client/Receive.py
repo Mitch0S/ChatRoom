@@ -8,11 +8,9 @@ while True:
     postTo = (("http://{}:{}/get/")).format(address, port)
     requests.post(postTo)
     chat = requests.post(postTo)
-    chats = str((chat.content))
-    chats = chats.replace("b'", "")
-    chats = chats.replace("'", "")
-    chats = chats.split("-")
+    chats = chat.json()
     time.sleep(1)
+    messages = chats.split("")
     os.system("clear")
-    for message in chats:
-        print(message)
+    for i in messages:
+        print(i)
