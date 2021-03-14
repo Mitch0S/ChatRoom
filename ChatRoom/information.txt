@@ -1,7 +1,7 @@
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-              Chatroom v1.0.1 by Mitch Naake
-
+=                                                             =
+-             Chatroom v1.0.1 by Mitch Naake                  -
+=                                                             =
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 This is a chatroom software that uses two clients, one that
